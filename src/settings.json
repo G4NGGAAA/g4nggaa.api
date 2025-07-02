@@ -1,0 +1,420 @@
+{
+  "name": "IkannNew Api",
+  "version": "v1.0.0",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "/src/g4nggaa.jpg",
+  "header": {
+    "status": "Online!"
+  },
+  "apiSettings": {
+    "creator": "g4nggaa", 
+    "apikey": ["g4nggaa-api"]
+  },
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text for luminai to respond to"
+          }
+        },
+        {
+          "name": "Vioo Ai",
+          "desc": "Talk with vioo",
+          "path": "/ai/viooai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text for vioo to respond to"
+          }
+       },
+{
+  "name": "Text to Image (AI Ease)",
+  "desc": "Mengubah prompt teks menjadi beberapa gambar AI bergaya seni dengan model AI Ease.",
+  "path": "/ai/textoimage?prompt=",
+  "status": "ready",
+  "params": {
+    "prompt": "Deskripsi teks untuk menghasilkan gambar AI (wajib)"
+  }
+},
+          {
+      "name": "Generate AI Image",
+      "desc": "Menghasilkan gambar AI dari prompt",
+      "path": "/ai/ai-img?prompt=",
+      "status": "ready",
+      "params": {
+        "prompt": "Deskripsi gambar",
+        "size": "Ukuran (opsional, default: 1_1_HD)"
+      }
+          }, 
+          {
+  "name": "AI Image 18+",
+  "desc": "Menghasilkan gambar AI bergaya realistis. eror reques doank didalam web... tapi silahkan salin endepoint nya dan jalankan manual",
+  "path": "/ai/aireal-img?prompt=",
+  "status": "ready",
+  "params": {
+    "prompt": "Deskripsi gambar dewasa yang ingin dibuat (wajib)"
+  }
+},
+       {
+          "name": "OpenAi",
+          "desc": "Talk with openai",
+          "path": "/ai/openai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text for openai to respond to"
+          }
+       },
+       {
+          "name": "HydroMind",
+          "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
+          "path": "/ai/hydromind?text=&model=",
+          "status": "ready",
+          "params": {
+            "text": "Teks atau perintah untuk chat AI",
+            "model":"1See the list of supported AI models here: https://mind.hydrooo.web.id"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba",
+          "status": "ready"
+        }, 
+         {
+          "name": "Animexin Update",
+          "desc": "Animexin Information Update",
+          "path": "/random/animexin",
+          "status": "ready"
+        }, 
+        {
+          "name": "Video Galau",
+          "desc": "memperlihatkan video galau",
+          "path": "/random/galau",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Download",
+      "items": [
+        {
+          "name": "Tiktok",
+          "desc": "Untuk mendownload video tiktok",
+          "path": "/download/tiktok?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link tiktok"
+          }
+        }, 
+        {
+          "name": "Facebook Downloader",
+          "desc": "Untuk mendownload video facebook",
+          "path": "/download/facebook?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link facebook"
+          }
+        }, 
+        {
+          "name": "Ytmp4",
+          "desc": "Untuk mendownload video youtube berupa video",
+          "path": "/download/ytmp4?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link youtube"
+          }
+        }, 
+        {
+          "name": "Spotify",
+          "desc": "Untuk mendownload lagi di spotify",
+          "path": "/download/spotify?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link spotify"
+          }
+        }, 
+        {
+          "name": "Ytmp3",
+          "desc": "Untuk mendownload video youtube berupa audio",
+          "path": "/download/ytmp3?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link youtube"
+          }
+        },
+        {
+          "name": "Capcut",
+          "desc": "Mendownload video capcut",
+          "path": "/download/capcut?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link capcut"
+          }
+        }, 
+        {
+          "name": "Pastebin",
+          "desc": "Mengambil code yang ada di pastebin",
+          "path": "/download/pastebin?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link pastebin"
+          }
+        },
+         {
+          "name": "MediaFire",
+          "desc": "Mendownload mediafire menggunakan link",
+          "path": "/download/mediafire?url=",
+          "status": "ready",
+          "params": {
+            "url": "masukkan link mediafire"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Stalk",
+      "items": [
+        {
+          "name": "Genshin",
+          "desc": "Genshin stalk",
+          "path": "/stalk/genshin?uuid=",
+          "status": "ready",
+          "params": {
+            "uuid": "masukkan id genshinnya"
+          }
+        }, 
+        {
+          "name": "Fire Fire",
+          "desc": "Fire Fire stalk",
+          "path": "/stalk/epep?id=",
+          "status": "ready",
+          "params": {
+            "id": "masukkan id ngepngep"
+          }
+        },
+        {
+          "name": "Npm stalk",
+          "desc": "Npm package stalk",
+          "path": "/stalk/npm?name=",
+          "status": "ready",
+          "params": {
+            "id": "masukkan nama package npm"
+          }
+        }, 
+          {
+      "name": "Mobile Legends ID Checker",
+      "desc": "Cek nickname dari ID Mobile Legends",
+      "path": "/stalk/ml?id=&zone=",
+      "status": "ready",
+      "params": {
+        "id": "Masukkan ID akun Mobile Legends",
+        "zone": "Masukkan Zone ID akun Mobile Legends"
+      }
+          }
+      ]
+    },
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        }, 
+        {
+          "name": "Pinterest",
+          "desc": "mencari gambar di pinterest",
+          "path": "/search/pin?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        },
+        {
+          "name": "Tiktok Search",
+          "desc": "mencari video yang berada di tiktok",
+          "path": "/search/tiktok?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        },
+        {
+          "name": "Xnxx Search",
+          "desc": "mencari video yang berada di website xnxx",
+          "path": "/search/xnxx?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        },
+        {
+          "name": "Detik Search",
+          "desc": "mencari berita di website detik.com",
+          "path": "/search/detik?q=",
+          "status": "ready",
+          "params": {
+            "q": "masukkan nama berita"
+          }
+        }, 
+        {
+          "name": "Capcut Search",
+          "desc": "mencari video yang berada di capcut",
+          "path": "/search/capcut?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        }
+      ]
+    }, 
+     {
+      "name": "Order Kouta",
+      "items": [
+        {
+          "name": "Create Payment",
+          "desc": "membuat payment order kouta",
+          "path": "/orkut/create?amount=&codeqr=",
+          "status": "ready",
+          "params": {
+            "amount": "Tolong masukkan harganya", 
+            "codeqr": "Tolong masukkan codeqr"
+          }
+        },
+        {
+          "name": "Status Payment",
+          "desc": "mengecek payment order kouta",
+          "path": "/orkut/cekstatus?merchant=&keyorkut=",
+          "status": "ready",
+          "params": {
+            "cekstatus": "Tolong masukkan cekstatus", 
+            "merchant": "Tolong masukkan merchant"
+          }
+        }
+      ]
+    }, 
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "name": "Ssweb",
+          "desc": "mengscreenshot suatu website menggunakan url nya saja",
+          "path": "/tools/ssweb?url=",
+          "status": "ready",
+          "params": {
+            "url": "Tolong masukkan url"
+          }
+        }, 
+         {
+          "name": "Tinyurl",
+          "desc": "mempersingkat link yang panjang",
+          "path": "/tools/tinyurl?url=",
+          "status": "ready",
+          "params": {
+            "url": "Tolong masukkan url"
+          }
+        }, 
+        {
+          "name": "ToRaw Github",
+          "desc": "mengubah link GitHub jadi link GitHub raw",
+          "path": "/tools/toraw?url=",
+          "status": "ready",
+          "params": {
+            "url": "Tolong masukkan url github"
+          }
+        }, 
+        {
+          "name": "ToOri Github",
+          "desc": "mengubah link raw GitHub jadi link ori github",
+          "path": "/tools/toori?url=",
+          "status": "ready",
+          "params": {
+            "url": "Tolong masukkan url github"
+          }
+        },
+        {
+          "name": "Create Email",
+          "desc": "membuat email acak menggunakan temp mail",
+          "path": "/tools/createemail",
+          "status": "ready"
+        },
+        {
+          "name": "Check Email",
+          "desc": "mengecek inbox yang ada di email menggunakan temp mail",
+          "path": "/tools/checkemail?email=",
+          "status": "ready",
+          "params": {
+            "email": "Tolong masukkan email yang tadi kamu buat"
+          }
+        },
+        {
+          "name": "Brat",
+          "desc": "mengubah text menjadi sticker",
+          "path": "/tools/brat?text=",
+          "status": "ready",
+          "params": {
+            "text": "Tolong masukkan text nya"
+          }
+        }, 
+        {
+          "name": "Remini",
+          "desc": "membuat gambar menjadi hd",
+          "path": "/tools/remini?url=",
+          "status": "ready",
+          "params": {
+            "url": "Tolong masukkan url nya"
+          }
+        }, 
+        {
+          "name": "Vcc Generator",
+          "desc": "generator virtual credit card",
+          "path": "/tools/vccgen?type=&count=",
+          "status": "ready",
+          "params": {
+            "type": "Masukkan type nya, visa, americanexpress, mastercard, jcb",
+            "count": "Masukkan 'count' antara 1 sampai 10"
+          }
+        }, 
+        {
+          "name": "Text2anime",
+          "desc": "mengubah text menjadi anime",
+          "path": "/tools/text2anime?text=&ratio=",
+          "status": "ready",
+          "params": {
+            "text": "Tolong masukkan text nya", 
+            "ratio": " Tolong kasih ukuran gambarnya"
+          }
+        },
+        {
+          "name": "Ttss",
+          "desc": "mengubah text menjadi audio",
+          "path": "/tools/tts?text=",
+          "status": "ready",
+          "params": {
+            "text": "Tolong masukkan text nya"
+          }
+        },
+        {
+          "name": "Info Gempa",
+          "desc": "mengetahui gempa di mana",
+          "path": "/tools/gempa",
+          "status": "ready"
+        }
+      ]
+    }
+  ]
+}

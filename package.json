@@ -1,0 +1,31 @@
+{
+  "name": "g4nggaa",
+  "version": "1.0.0",
+  "description": "A simple and customizable API documentation interface built with Express.js.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --no-deprecation index.js"
+  },
+  "author": "g4nggaa",
+  "license": "MIT",
+  "dependencies": {
+    "@ikanngeming/blubub": "^2.3.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.3",
+    "canvafy": "^7.2.0",
+    "canvas": "^2.11.2",
+    "cfonts": "^3.3.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "groq-sdk": "^0.9.1",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "yt-search": "^2.12.1"
+  }
+}
