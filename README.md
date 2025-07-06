@@ -1,8 +1,7 @@
-# Falcon API UI
+# G4NGGAAA API
 
 A modern, clean, and user-friendly interface for browsing and testing Falcon API endpoints.
 
-![Falcon API UI Screenshot](image.png)
 
 ## Features
 
@@ -25,7 +24,7 @@ A modern, clean, and user-friendly interface for browsing and testing Falcon API
 
 1. Clone this repository to your web server:
    ```bash
-   git clone https://github.com/FlowFalcon/falcon-api-ui.git
+   git clone https://github.com/G4NGGAAA/g4nggaa.api.git
    ```
 
 2. Configure your API endpoints in `settings.json` (see Configuration section below)
@@ -38,7 +37,7 @@ All API endpoints and categories are configured in the `settings.json` file. The
 
 ```json
 {
-  "name": "Falcon-Api",
+  "name": "g4nggaaa-Api",
   "version": "v1.2",
   "description": "Simple and easy to use API.",
   "bannerImage": "/src/banner.jpg",
@@ -46,8 +45,8 @@ All API endpoints and categories are configured in the `settings.json` file. The
     "status": "Online!"
   },
   "apiSettings": {
-    "creator": "FlowFalcon", 
-    "apikey": ["falcon-api"]
+    "creator": "G4NGGAAA", 
+    "apikey": ["g4nggaaa-api"]
   },
   "categories": [
     {
@@ -142,4 +141,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Created with ❤️ by [FlowFalcon](https://github.com/FlowFalcon)
+Created with ❤️ by [FlowFalcon](https://github.com/G4NGGAAA)
